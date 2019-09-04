@@ -1,0 +1,37 @@
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.content-wrapper {
+  display:flex;
+  flex-direction: column;
+  width: 920px;
+  align-self: center;
+}
+
+.top {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.info {
+  width: fit-content
+}
+
+#Reservations {
+  /* float: right; */
+  width: 260px;
+  align-self: flex-end;
+  margin-top: 10px !important;
+}
+
+#reviews {
+  width: 75%;
+}
+
+#NearbyService {
+  align-self: center;
+}
